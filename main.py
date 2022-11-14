@@ -22,7 +22,7 @@ def calc(probability):
         if cumulative >= 1:
             cumulative = 1
         # print(f'{num} | {change_probability} | {success_this_time} | {cumulative} | {master_energy}')     # 강화 버튼 누르는 시점
-        data = {'num': num, 'change_probability': change_probability, 'success_this_time': success_this_time, 'cumulative': cumulative, 'master_energy': master_energy}
+        data = {'num': int(num), 'change_probability': change_probability, 'success_this_time': success_this_time, 'cumulative': cumulative, 'master_energy': master_energy}
         try_df = try_df.append(data, ignore_index=True)
         if master_energy >= 1: break
         fail_before = round(fail_before * (1 - change_probability), 5)
@@ -46,9 +46,9 @@ def data_group():
         print(f'{i} end')
 
 
-def to_csv(df, num):
+def to_csv(df, prob_num):
     path = './db/'
-    filename = 'refining_' + str(num) + '.csv'
+    filename = 'refining_' + str(prob_num) + '.csv'
     df.to_csv(path + filename, index=False)
 
 
