@@ -1,174 +1,174 @@
 level_1302:
   step_1:
-    basic_stone: 138
+    destruction_stone: 138
     fusion: 0
     gold: 0
     honor_shard: 32
     leap_stone: 4
     probability: '100'
   step_10:
-    basic_stone: 320
+    destruction_stone: 320
     fusion: 4
     gold: 400
     honor_shard: 74
     leap_stone: 10
     probability: '30'
   step_11:
-    basic_stone: 320
+    destruction_stone: 320
     fusion: 4
     gold: 400
     honor_shard: 74
     leap_stone: 10
     probability: '30'
   step_12:
-    basic_stone: 320
+    destruction_stone: 320
     fusion: 4
     gold: 400
     honor_shard: 74
     leap_stone: 10
     probability: '30'
   step_13:
-    basic_stone: 380
+    destruction_stone: 380
     fusion: 6
     gold: 400
     honor_shard: 88
     leap_stone: 10
     probability: '30'
   step_14:
-    basic_stone: 380
+    destruction_stone: 380
     fusion: 6
     gold: 400
     honor_shard: 88
     leap_stone: 12
     probability: '30'
   step_15:
-    basic_stone: 380
+    destruction_stone: 380
     fusion: 6
     gold: 400
     honor_shard: 88
     leap_stone: 12
     probability: '30'
   step_16:
-    basic_stone: 440
+    destruction_stone: 440
     fusion: 6
     gold: 400
     honor_shard: 120
     leap_stone: 12
     probability: '10'
   step_17:
-    basic_stone: 440
+    destruction_stone: 440
     fusion: 6
     gold: 400
     honor_shard: 164
     leap_stone: 12
     probability: '10'
   step_18:
-    basic_stone: 440
+    destruction_stone: 440
     fusion: 6
     gold: 400
     honor_shard: 222
     leap_stone: 14
     probability: '5'
   step_19:
-    basic_stone: 500
+    destruction_stone: 500
     fusion: 8
     gold: 400
     honor_shard: 300
     leap_stone: 14
     probability: '5'
   step_2:
-    basic_stone: 138
+    destruction_stone: 138
     fusion: 0
     gold: 0
     honor_shard: 32
     leap_stone: 4
     probability: '100'
   step_20:
-    basic_stone: 500
+    destruction_stone: 500
     fusion: 8
     gold: 400
     honor_shard: 406
     leap_stone: 16
     probability: '3'
   step_21:
-    basic_stone: 500
+    destruction_stone: 500
     fusion: 8
     gold: 420
     honor_shard: 552
     leap_stone: 16
     probability: '3'
   step_22:
-    basic_stone: 560
+    destruction_stone: 560
     fusion: 8
     gold: 430
     honor_shard: 750
     leap_stone: 18
     probability: '1'
   step_23:
-    basic_stone: 560
+    destruction_stone: 560
     fusion: 8
     gold: 450
     honor_shard: 1016
     leap_stone: 18
     probability: '1'
   step_24:
-    basic_stone: 560
+    destruction_stone: 560
     fusion: 8
     gold: 460
     honor_shard: 1380
     leap_stone: 20
     probability: '0.5'
   step_25:
-    basic_stone: 622
+    destruction_stone: 622
     fusion: 8
     gold: 490
     honor_shard: 1872
     leap_stone: 20
     probability: '0.5'
   step_3:
-    basic_stone: 138
+    destruction_stone: 138
     fusion: 0
     gold: 0
     honor_shard: 32
     leap_stone: 6
     probability: '100'
   step_4:
-    basic_stone: 198
+    destruction_stone: 198
     fusion: 2
     gold: 0
     honor_shard: 46
     leap_stone: 6
     probability: '100'
   step_5:
-    basic_stone: 198
+    destruction_stone: 198
     fusion: 2
     gold: 0
     honor_shard: 46
     leap_stone: 6
     probability: '100'
   step_6:
-    basic_stone: 198
+    destruction_stone: 198
     fusion: 2
     gold: 0
     honor_shard: 46
     leap_stone: 6
     probability: '100'
   step_7:
-    basic_stone: 258
+    destruction_stone: 258
     fusion: 4
     gold: 400
     honor_shard: 60
     leap_stone: 8
     probability: '60'
   step_8:
-    basic_stone: 258
+    destruction_stone: 258
     fusion: 4
     gold: 400
     honor_shard: 60
     leap_stone: 8
     probability: '45'
   step_9:
-    basic_stone: 258
+    destruction_stone: 258
     fusion: 4
     gold: 400
     honor_shard: 60
@@ -176,175 +176,175 @@ level_1302:
     probability: '30'
 level_1340:
   step_1:
-    basic_stone: 358
+    destruction_stone: 358
     fusion: 4
     gold: 0
     honor_shard: 84
     leap_stone: 6
     probability: '100'
   step_10:
-    basic_stone: 830
+    destruction_stone: 830
     fusion: 8
     gold: 640
     honor_shard: 192
     leap_stone: 16
     probability: '30'
   step_11:
-    basic_stone: 830
+    destruction_stone: 830
     fusion: 8
     gold: 660
     honor_shard: 192
     leap_stone: 16
     probability: '30'
   step_12:
-    basic_stone: 830
+    destruction_stone: 830
     fusion: 8
     gold: 660
     honor_shard: 192
     leap_stone: 18
     probability: '15'
   step_13:
-    basic_stone: 986
+    destruction_stone: 986
     fusion: 10
     gold: 660
     honor_shard: 228
     leap_stone: 18
     probability: '15'
   step_14:
-    basic_stone: 986
+    destruction_stone: 986
     fusion: 10
     gold: 660
     honor_shard: 228
     leap_stone: 20
     probability: '15'
   step_15:
-    basic_stone: 986
+    destruction_stone: 986
     fusion: 10
     gold: 660
     honor_shard: 228
     leap_stone: 20
     probability: '10'
   step_16:
-    basic_stone: 1144
+    destruction_stone: 1144
     fusion: 12
     gold: 680
     honor_shard: 310
     leap_stone: 22
     probability: '10'
   step_17:
-    basic_stone: 1144
+    destruction_stone: 1144
     fusion: 14
     gold: 680
     honor_shard: 422
     leap_stone: 24
     probability: '10'
   step_18:
-    basic_stone: 1144
+    destruction_stone: 1144
     fusion: 16
     gold: 680
     honor_shard: 572
     leap_stone: 28
     probability: '5'
   step_19:
-    basic_stone: 1300
+    destruction_stone: 1300
     fusion: 18
     gold: 710
     honor_shard: 776
     leap_stone: 30
     probability: '5'
   step_2:
-    basic_stone: 358
+    destruction_stone: 358
     fusion: 4
     gold: 0
     honor_shard: 84
     leap_stone: 8
     probability: '100'
   step_20:
-    basic_stone: 1300
+    destruction_stone: 1300
     fusion: 20
     gold: 730
     honor_shard: 1054
     leap_stone: 32
     probability: '3'
   step_21:
-    basic_stone: 1300
+    destruction_stone: 1300
     fusion: 22
     gold: 750
     honor_shard: 1432
     leap_stone: 34
     probability: '3'
   step_22:
-    basic_stone: 1458
+    destruction_stone: 1458
     fusion: 26
     gold: 780
     honor_shard: 1944
     leap_stone: 38
     probability: '1'
   step_23:
-    basic_stone: 1458
+    destruction_stone: 1458
     fusion: 28
     gold: 810
     honor_shard: 2640
     leap_stone: 42
     probability: '1'
   step_24:
-    basic_stone: 1458
+    destruction_stone: 1458
     fusion: 32
     gold: 840
     honor_shard: 3586
     leap_stone: 44
     probability: '0.5'
   step_25:
-    basic_stone: 1614
+    destruction_stone: 1614
     fusion: 36
     gold: 870
     honor_shard: 4868
     leap_stone: 48
     probability: '0.5'
   step_3:
-    basic_stone: 358
+    destruction_stone: 358
     fusion: 4
     gold: 0
     honor_shard: 84
     leap_stone: 8
     probability: '100'
   step_4:
-    basic_stone: 516
+    destruction_stone: 516
     fusion: 6
     gold: 0
     honor_shard: 120
     leap_stone: 10
     probability: '100'
   step_5:
-    basic_stone: 516
+    destruction_stone: 516
     fusion: 6
     gold: 0
     honor_shard: 120
     leap_stone: 10
     probability: '100'
   step_6:
-    basic_stone: 516
+    destruction_stone: 516
     fusion: 6
     gold: 0
     honor_shard: 120
     leap_stone: 12
     probability: '100'
   step_7:
-    basic_stone: 672
+    destruction_stone: 672
     fusion: 6
     gold: 640
     honor_shard: 156
     leap_stone: 12
     probability: '60'
   step_8:
-    basic_stone: 672
+    destruction_stone: 672
     fusion: 6
     gold: 640
     honor_shard: 156
     leap_stone: 14
     probability: '45'
   step_9:
-    basic_stone: 672
+    destruction_stone: 672
     fusion: 8
     gold: 640
     honor_shard: 156
@@ -352,175 +352,175 @@ level_1340:
     probability: '30'
 level_1390:
   step_1:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 720
     honor_shard: 300
     leap_stone: 6
     probability: '100'
   step_10:
-    basic_stone: 550
+    destruction_stone: 550
     fusion: 7
     gold: 790
     honor_shard: 800
     leap_stone: 16
     probability: '15'
   step_11:
-    basic_stone: 550
+    destruction_stone: 550
     fusion: 7
     gold: 790
     honor_shard: 800
     leap_stone: 16
     probability: '15'
   step_12:
-    basic_stone: 650
+    destruction_stone: 650
     fusion: 8
     gold: 800
     honor_shard: 1000
     leap_stone: 18
     probability: '10'
   step_13:
-    basic_stone: 650
+    destruction_stone: 650
     fusion: 8
     gold: 800
     honor_shard: 1000
     leap_stone: 18
     probability: '10'
   step_14:
-    basic_stone: 700
+    destruction_stone: 700
     fusion: 12
     gold: 870
     honor_shard: 1400
     leap_stone: 20
     probability: '5'
   step_15:
-    basic_stone: 750
+    destruction_stone: 750
     fusion: 12
     gold: 940
     honor_shard: 1400
     leap_stone: 20
     probability: '5'
   step_16:
-    basic_stone: 900
+    destruction_stone: 900
     fusion: 12
     gold: 1120
     honor_shard: 2400
     leap_stone: 22
     probability: '4'
   step_17:
-    basic_stone: 950
+    destruction_stone: 950
     fusion: 12
     gold: 1200
     honor_shard: 2400
     leap_stone: 24
     probability: '4'
   step_18:
-    basic_stone: 1100
+    destruction_stone: 1100
     fusion: 20
     gold: 1350
     honor_shard: 3600
     leap_stone: 28
     probability: '3'
   step_19:
-    basic_stone: 1150
+    destruction_stone: 1150
     fusion: 20
     gold: 1440
     honor_shard: 3600
     leap_stone: 30
     probability: '3'
   step_2:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 720
     honor_shard: 300
     leap_stone: 8
     probability: '100'
   step_20:
-    basic_stone: 1300
+    destruction_stone: 1300
     fusion: 30
     gold: 1600
     honor_shard: 5000
     leap_stone: 32
     probability: '1.5'
   step_21:
-    basic_stone: 1350
+    destruction_stone: 1350
     fusion: 30
     gold: 1700
     honor_shard: 6600
     leap_stone: 34
     probability: '1.5'
   step_22:
-    basic_stone: 1500
+    destruction_stone: 1500
     fusion: 30
     gold: 1880
     honor_shard: 8400
     leap_stone: 38
     probability: '1'
   step_23:
-    basic_stone: 1550
+    destruction_stone: 1550
     fusion: 30
     gold: 2000
     honor_shard: 10000
     leap_stone: 42
     probability: '1'
   step_24:
-    basic_stone: 1700
+    destruction_stone: 1700
     fusion: 45
     gold: 2250
     honor_shard: 12000
     leap_stone: 44
     probability: '0.5'
   step_25:
-    basic_stone: 1750
+    destruction_stone: 1750
     fusion: 45
     gold: 2450
     honor_shard: 14400
     leap_stone: 48
     probability: '0.5'
   step_3:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 720
     honor_shard: 300
     leap_stone: 8
     probability: '100'
   step_4:
-    basic_stone: 400
+    destruction_stone: 400
     fusion: 6
     gold: 750
     honor_shard: 400
     leap_stone: 10
     probability: '45'
   step_5:
-    basic_stone: 400
+    destruction_stone: 400
     fusion: 6
     gold: 750
     honor_shard: 400
     leap_stone: 10
     probability: '45'
   step_6:
-    basic_stone: 400
+    destruction_stone: 400
     fusion: 6
     gold: 750
     honor_shard: 500
     leap_stone: 12
     probability: '45'
   step_7:
-    basic_stone: 450
+    destruction_stone: 450
     fusion: 6
     gold: 770
     honor_shard: 500
     leap_stone: 12
     probability: '30'
   step_8:
-    basic_stone: 450
+    destruction_stone: 450
     fusion: 6
     gold: 770
     honor_shard: 600
     leap_stone: 14
     probability: '30'
   step_9:
-    basic_stone: 450
+    destruction_stone: 450
     fusion: 6
     gold: 770
     honor_shard: 600
@@ -528,175 +528,175 @@ level_1390:
     probability: '30'
 level_1525:
   step_1:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 750
     honor_shard: 2500
     leap_stone: 7
     probability: '100'
   step_10:
-    basic_stone: 650
+    destruction_stone: 650
     fusion: 7
     gold: 1170
     honor_shard: 6500
     leap_stone: 15
     probability: '15'
   step_11:
-    basic_stone: 650
+    destruction_stone: 650
     fusion: 7
     gold: 1240
     honor_shard: 6500
     leap_stone: 15
     probability: '15'
   step_12:
-    basic_stone: 650
+    destruction_stone: 650
     fusion: 8
     gold: 1290
     honor_shard: 6500
     leap_stone: 15
     probability: '10'
   step_13:
-    basic_stone: 700
+    destruction_stone: 700
     fusion: 8
     gold: 1360
     honor_shard: 8000
     leap_stone: 19
     probability: '10'
   step_14:
-    basic_stone: 750
+    destruction_stone: 750
     fusion: 12
     gold: 1430
     honor_shard: 8000
     leap_stone: 20
     probability: '5'
   step_15:
-    basic_stone: 800
+    destruction_stone: 800
     fusion: 12
     gold: 1520
     honor_shard: 8000
     leap_stone: 21
     probability: '5'
   step_16:
-    basic_stone: 950
+    destruction_stone: 950
     fusion: 12
     gold: 1610
     honor_shard: 9000
     leap_stone: 22
     probability: '4'
   step_17:
-    basic_stone: 1000
+    destruction_stone: 1000
     fusion: 12
     gold: 1720
     honor_shard: 9000
     leap_stone: 24
     probability: '4'
   step_18:
-    basic_stone: 1050
+    destruction_stone: 1050
     fusion: 20
     gold: 1840
     honor_shard: 12000
     leap_stone: 26
     probability: '3'
   step_19:
-    basic_stone: 1100
+    destruction_stone: 1100
     fusion: 20
     gold: 1980
     honor_shard: 14000
     leap_stone: 28
     probability: '3'
   step_2:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 750
     honor_shard: 2500
     leap_stone: 7
     probability: '100'
   step_20:
-    basic_stone: 1250
+    destruction_stone: 1250
     fusion: 30
     gold: 2150
     honor_shard: 14000
     leap_stone: 30
     probability: '1.5'
   step_21:
-    basic_stone: 1350
+    destruction_stone: 1350
     fusion: 30
     gold: 2350
     honor_shard: 15000
     leap_stone: 33
     probability: '1.5'
   step_22:
-    basic_stone: 1450
+    destruction_stone: 1450
     fusion: 30
     gold: 2600
     honor_shard: 15000
     leap_stone: 36
     probability: '1'
   step_23:
-    basic_stone: 1600
+    destruction_stone: 1600
     fusion: 30
     gold: 2910
     honor_shard: 17000
     leap_stone: 40
     probability: '1'
   step_24:
-    basic_stone: 1850
+    destruction_stone: 1850
     fusion: 45
     gold: 3290
     honor_shard: 19000
     leap_stone: 44
     probability: '0.5'
   step_25:
-    basic_stone: 2150
+    destruction_stone: 2150
     fusion: 45
     gold: 3750
     honor_shard: 22000
     leap_stone: 48
     probability: '0.5'
   step_3:
-    basic_stone: 350
+    destruction_stone: 350
     fusion: 5
     gold: 750
     honor_shard: 2500
     leap_stone: 7
     probability: '100'
   step_4:
-    basic_stone: 400
+    destruction_stone: 400
     fusion: 6
     gold: 850
     honor_shard: 3000
     leap_stone: 8
     probability: '45'
   step_5:
-    basic_stone: 400
+    destruction_stone: 400
     fusion: 6
     gold: 850
     honor_shard: 3000
     leap_stone: 8
     probability: '45'
   step_6:
-    basic_stone: 450
+    destruction_stone: 450
     fusion: 6
     gold: 850
     honor_shard: 4000
     leap_stone: 10
     probability: '45'
   step_7:
-    basic_stone: 450
+    destruction_stone: 450
     fusion: 6
     gold: 980
     honor_shard: 4000
     leap_stone: 10
     probability: '30'
   step_8:
-    basic_stone: 550
+    destruction_stone: 550
     fusion: 6
     gold: 1040
     honor_shard: 5000
     leap_stone: 12
     probability: '30'
   step_9:
-    basic_stone: 550
+    destruction_stone: 550
     fusion: 6
     gold: 1100
     honor_shard: 5000
