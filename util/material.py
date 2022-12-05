@@ -32,21 +32,32 @@ def crawling(code):
     return material
 
 
-def data_group(*args):
+def data_group(type, *args):
     result_dict = {}
     for i in args:
         code = None
-        if i == 1525:
-            code = '113487410'
-        elif i == 1390:
-            code = '113457410'
-        elif i == 1340:
-            code = '113337410'
-        elif i == 1302:
-            code = '113011410'
+        if type == 'weapon':
+            if i == 1525:
+                code = '113487410'
+            elif i == 1390:
+                code = '113457410'
+            elif i == 1340:
+                code = '113337410'
+            elif i == 1302:
+                code = '113011410'
+        elif type == 'armor':
+            if i == 1525:
+                code = '113487414'
+            elif i == 1390:
+                code = '113457414'
+            elif i == 1340:
+                code = '113337414'
+            elif i == 1302:
+                code = '113111414'
         result_dict['level_' + str(i)] = crawling(code)
         print(f'level_{i}% done.')
-    return result_dict
+
+    return type, result_dict
 
 
 def to_yml(data_dict):
@@ -55,11 +66,13 @@ def to_yml(data_dict):
     except FileExistsError as e:
         pass
     path = '../db/material/'
-    filename = 'material' + '.yml'
+    filename = data_dict[0] + '_material' + '.yml'
     with open(path + filename, 'w') as file:
-        yaml.dump(data_dict, file, default_flow_style=False)
+        yaml.dump(data_dict[1], file, default_flow_style=False)
 
 
 if __name__ == '__main__':
-    material = data_group(1302, 1340, 1390, 1525)
+    material = data_group('weapon', 1302, 1340, 1390, 1525)
+    to_yml(material)
+    material = data_group('armor', 1302, 1340, 1390, 1525)
     to_yml(material)
