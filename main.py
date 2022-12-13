@@ -10,8 +10,8 @@ if __name__ == '__main__':
         print('error')
         pass
 
-    # api.members_to_dataframe()
-    # api.get_material_price()
+    api.members_to_dataframe()
+    api.get_material_price()
 
     weaponStepMaterial = material.data_group('weapon', 1302, 1340, 1390, 1525)
     material.to_csv(weaponStepMaterial)

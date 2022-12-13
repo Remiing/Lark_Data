@@ -178,6 +178,7 @@ def get_material_price():
             df_itemPrice = df_itemPrice.append(data, ignore_index=True)
         else:
             print("error")
+        time.sleep(1)
 
     filename = './db/material_price.csv'
     df_itemPrice.to_csv(filename, index=False)

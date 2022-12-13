@@ -77,7 +77,6 @@ def calcStepPrice():
 
     for weapon_step, armor_step in zip(df_weapon_step.to_dict('records'), df_armor_step.to_dict('records')):
         destruction_stone_price, guardian_stone_price, leap_stone_price, fusion_price = 0, 0, 0, 0
-        print(weapon_step)
         if weapon_step['level'] == 'level_1302':
             destruction_stone_price = df_itemPrice[df_itemPrice['itemName'] == '파괴석 결정']['itemPrice'].values[0] / 10
             guardian_stone_price = df_itemPrice[df_itemPrice['itemName'] == '수호석 결정']['itemPrice'].values[0] / 10
@@ -110,17 +109,18 @@ def calcStepPrice():
 
         data = {'level': weapon_step['level'],
                 'step': weapon_step['step'],
-                'weaponOnce': weapon_refining_once,
-                'weaponAvg': weapon_refining_avg,
-                'weaponMax': weapon_refining_max,
-                'armorOnce': armor_refining_once,
-                'armorAvg': armor_refining_avg,
-                'armorMax': armor_refining_max,
+                'weaponOnce': int(weapon_refining_once),
+                'weaponAvg': int(weapon_refining_avg),
+                'weaponMax': int(weapon_refining_max),
+                'armorOnce': int(armor_refining_once),
+                'armorAvg': int(armor_refining_avg),
+                'armorMax': int(armor_refining_max),
                 }
 
         df_stepPrice = df_stepPrice.append(data, ignore_index=True)
 
     filename = './db/step_price.csv'
+    df_stepPrice = df_stepPrice.astype({'weaponOnce': int, 'weaponAvg': int, 'weaponMax': int, 'armorOnce': int, 'armorAvg': int, 'armorMax': int, })
     df_stepPrice.to_csv(filename, index=False)
 
 
