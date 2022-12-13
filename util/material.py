@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import yaml
 import os
+import pandas as pd
 
 
 def crawling(type, code):
@@ -61,26 +62,40 @@ def data_group(type, *args):
             elif i == 1302:
                 code = '113111414'
         result_dict['level_' + str(i)] = crawling(type, code)
-        print(f'level_{i}% done.')
+        print(f'{type} level_{i} done.')
 
     return type, result_dict
 
 
 def to_yml(data_dict):
-    try:
-        os.makedirs('../db/material')
-    except FileExistsError as e:
-        pass
-    path = '../db/material/'
+    path = './db/material/'
     filename = data_dict[0] + '_material' + '.yml'
     with open(path + filename, 'w') as file:
         yaml.dump(data_dict[1], file, default_flow_style=False)
 
 
+def to_csv(data_dict):
+    df_material = pd.DataFrame()
+    for level, level_dict in data_dict[1].items():
+        for step, step_dict in level_dict.items():
+            data = step_dict
+            data['step'] = step
+            data['level'] = level
+            df_material = df_material.append(data, ignore_index=True)
+
+    if data_dict[0] == 'weapon':
+        df_material = df_material.astype({'destruction_stone': int, 'leap_stone': int, 'fusion': int, 'honor_shard': int, 'gold': int})
+        df_material = df_material[['level', 'step', 'destruction_stone', 'leap_stone', 'fusion', 'honor_shard', 'gold', 'probability']]
+    elif data_dict[0] == 'armor':
+        df_material = df_material.astype({'guardian_stone': int, 'leap_stone': int, 'fusion': int, 'honor_shard': int, 'gold': int})
+        df_material = df_material[['level', 'step', 'guardian_stone', 'leap_stone', 'fusion', 'honor_shard', 'gold', 'probability']]
+
+    df_material.to_csv('./db/material/' + data_dict[0] + '_step.csv', index=False)
+
+
 if __name__ == '__main__':
     material = data_group('weapon', 1302, 1340, 1390, 1525)
-    to_yml(material)
+    to_csv(material)
     material = data_group('armor', 1302, 1340, 1390, 1525)
-    to_yml(material)
+    to_csv(material)
 
-    # crawling('113487414')
