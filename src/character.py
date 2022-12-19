@@ -55,7 +55,14 @@ def get_characterInfo(characterName):
             equipType = typeValue.split()[-1]
             equipStep = typeValue[1:typeValue.find(' ')]
             equipName = typeValue[typeValue.find(' ') + 1:]
-            equipLevel = [k for k, v in equipSetLevel.items() if equipName if v][0]
+            equipLevel = ''
+            for k, v in equipSetLevel.items():
+                for setName in v:
+                    if setName in equipName:
+                        equipLevel = k
+                        break
+                else: continue
+                break
             equipQuality = equip['Element_001']['value']['qualityValue']
             equipment.append(f'{equipType}/{equipStep}/{equipLevel}/{equipQuality}')
             equipment_name.append(equipName)
